@@ -1,0 +1,20 @@
+---
+layout: template
+title: Contact Me
+---
+<form class="contact" id="contactForm">
+  <h1 style="margin-bottom: 1rem;">Contact Me</h1>
+  <label for="name" aria-label="name">Name</label><br />
+  <input type="text" name="name" required></input><br />
+
+  <label for="email">Email</label><br />
+  <input type="text" name="email" required></input><br />
+
+  <label for="subject">Subject</label><br />
+  <input type="text" name="subject" required></input><br />
+
+  <label for="message">Message</label><br />
+  <textarea name="message" required></textarea><br />
+
+  <input type="submit" value="Submit" method="post" action="src/php/sendemail.php"></input>
+</form>
