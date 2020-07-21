@@ -1,0 +1,148 @@
+/*MOBILE BREAK POINTS*/
+/*phone-max: 640px;
+  tablet-max: 1040px;*/
+
+/*TABLET STYLES*/
+@media only screen and (max-width: 1040px) {
+  h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  h2, h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  nav {
+    padding: 0 1rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  main .sidebar,
+  main .content {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+  }
+
+  main .content {
+    padding-bottom: 3rem;
+  }
+}
+
+/*PHONE STYLES*/
+@media only screen and (max-width: 640px) {
+  h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  h2, h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  nav {
+    margin: 1.5rem auto;
+  }
+
+  nav #mobile-nav {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    color: #5173a5;
+    font-size: 2.5rem;
+    padding: 1.5rem 2rem 0 0;
+    cursor: pointer;
+  }
+
+  nav #nav-links {
+    background-color: #5173a5;
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 1rem;
+    top: 6rem;
+    padding: .5rem;
+    display: none;
+  }
+
+  nav #nav-links.show {
+    display: block;
+  }
+
+  nav #nav-links a {
+    margin: 0 1rem;
+    font-size: 1.25rem;
+    line-height: 1.66;
+    color: #fff;
+    display: block;
+  }
+
+  nav #nav-links a:active {
+    color: #000;
+  }
+
+  main .sidebar,
+  main .content {
+    width: 100%;
+    margin: 0;
+  }
+
+  main .content h1 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+
+  main .content .contact {
+    line-height: 2rem;
+  }
+
+  main .content .contact label {
+    padding: 0;
+  }
+
+  main .content .contact input,
+  main .content .contact textarea {
+    margin: 0;
+    margin-top: 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+
+  main .content .contact input[type=text] {
+    width: 50%;
+  }
+
+  main .content .contact textarea {
+    width: 90%;
+    height: 10rem;
+    font-family: franklin-gothic-urw, sans-serif;
+  }
+
+  main .content .contact input[type=submit] {
+    width: 33%;
+  }
+
+  footer {
+    position: inherit;
+  }
+
+  footer .footer-info .socials {
+    width: 100%;
+    padding: 0;
+  }
+
+  footer .footer-info .contact {
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+}

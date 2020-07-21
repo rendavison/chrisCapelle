@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="preload">
+    {% include nav.html %}
+
+    <main class="clear">
+      {% include sidebar.html %}
+
+      <section class="content">
+        {{ content }}
+      </section>
+    </main>
+
+    {% include footer.html %}
+    <!--imports all the javascript-->
+    {% include js.html %}
+  </body>
+</html>
