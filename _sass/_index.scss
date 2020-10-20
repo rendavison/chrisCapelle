@@ -1,0 +1,38 @@
+main {
+  .content {
+    .index {
+      height: auto;
+      display: flex;
+      margin-top: 1rem;
+      justify-content: space-between;
+
+      section {
+        flex-grow: 1;
+        flex-basis: 0;
+        margin: 1rem;
+        width: 33.33%;
+
+        &:first-of-type {
+          margin-left: 0;
+        }
+
+        &:last-of-type {
+          margin-right: 0;
+        }
+
+        img {
+          width: 100%;
+          margin-bottom: 0;
+          padding-bottom: 0;
+        }
+
+        .text {
+          background-color: $light;
+          padding: 0.5rem;
+          border-radius: 0 0 1rem 1rem;
+        }
+      }
+    }
+
+  }
+}
