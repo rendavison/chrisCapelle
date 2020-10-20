@@ -1,0 +1,27 @@
+main .sidebar,
+main .content {
+  box-sizing: border-box;
+  display: block;
+  height: auto;
+  width: auto;
+}
+
+main .sidebar {
+  max-width: 25%;
+  padding-right: 2rem;
+
+  .sidebar-text {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  img {
+    width: 80%;
+    margin: auto;
+  }
+
+  #logo a:hover {
+    opacity: 1;
+    transition: 0;
+  }
+}

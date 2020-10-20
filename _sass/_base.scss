@@ -1,0 +1,81 @@
+/*thank you css-tricks for the preload trick*/
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
+.clear {
+  clear: both;
+}
+
+body {
+  background-color: #fff;
+  font-family: $body-font;
+  font-weight: 400;
+  font-size: $base-font-size;
+  color: #2c2c2d;
+  margin: auto;
+  line-height: 1.25rem;
+  overflow-x: hidden;
+}
+
+a {
+  color: $accent;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+
+  &:hover {
+    opacity: .5;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+  }
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  height: 60vh;
+  width: auto;
+  max-width: 1200px;
+  padding: .5rem;
+  padding-bottom: 2rem;
+  box-sizing: border-box;
+  margin: auto;
+
+  .content {
+    width: 80%;
+    margin-left: 1.66%;
+  }
+}
+
+/* HEADERS */
+
+h1, h2, h3 {
+  font-family: $heading-font;
+}
+
+h1 a, h2 a, h3 a {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  font-weight: 400;
+  color: $accent;
+}
+
+h2 {
+  font-size: 1.75rem;
+  line-height: 2.275rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  color: $grey;
+}

@@ -56,14 +56,14 @@
     display: inline-block;
     position: absolute;
     right: 0;
-    color: #5173a5;
+    color: $accent;
     font-size: 2.5rem;
     padding: 1.5rem 2rem 0 0;
     cursor: pointer;
   }
 
   nav #nav-links {
-    background-color: #5173a5;
+    background-color: $accent;
     width: auto;
     height: auto;
     position: absolute;
@@ -125,7 +125,7 @@
   main .content .contact textarea {
     width: 90%;
     height: 10rem;
-    font-family: franklin-gothic-urw, sans-serif;
+    font-family: $body-font;
   }
 
   main .content .contact input[type=submit] {

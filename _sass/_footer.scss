@@ -1,0 +1,36 @@
+footer {
+  background-color: $accent;
+  box-sizing: border-box;
+  padding: 2rem;
+  margin: auto;
+  width: 100%;
+  height: auto;
+
+  .footer-info {
+    margin: auto;
+    max-width: 1200px;
+
+    .socials {
+      width: 25%;
+      float: left;
+      padding: .5rem;
+      box-sizing: border-box;
+
+      i {
+        margin-right: 1rem;
+        color: white;
+        font-size: 2rem;
+      }
+    }
+
+    .contact {
+      width: 73%;
+      color: white;
+      display: inline-block;
+
+      a {
+        color: white;
+      }
+    }
+  }
+}

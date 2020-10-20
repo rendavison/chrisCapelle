@@ -2,7 +2,7 @@
 layout: template
 title: Contact Me
 ---
-<form class="contact" id="contactForm">
+<form class="contact" id="contactForm" action="https://formsubmit.co/chris@chriscapelle.com" method="POST">
   <h1 style="margin-bottom: 1rem;">Contact Me</h1>
   <label for="name" aria-label="name">Name</label><br />
   <input type="text" name="name" required></input><br />
@@ -16,5 +16,5 @@ title: Contact Me
   <label for="message">Message</label><br />
   <textarea name="message" required></textarea><br />
 
-  <input type="submit" value="Submit" method="post" action="src/php/sendemail.php"></input>
+  <input type="submit" value="Submit"></input>
 </form>
