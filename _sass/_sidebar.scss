@@ -1,5 +1,4 @@
-main .sidebar,
-main .content {
+main .sidebar {
   box-sizing: border-box;
   display: block;
   height: auto;
@@ -7,7 +6,7 @@ main .content {
 }
 
 main .sidebar {
-  max-width: 25%;
+  width: 25%;
   padding-right: 2rem;
 
   .sidebar-text {
@@ -16,7 +15,7 @@ main .sidebar {
   }
 
   img {
-    width: 80%;
+    width: 100%;
     margin: auto;
   }
 
