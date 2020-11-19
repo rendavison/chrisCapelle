@@ -3,9 +3,9 @@ title: About |
 layout: template
 ---
 
-<img src="assets/img/About_Me_Pic.jpeg"/>
-
 # About Me
+
+<img src="assets/img/About_Me_Pic.jpeg" class="about-pic"/>
 
 I’ve been working with Apple products for thirty years with clients of all types. My specialty is successfully solving technical problems for corporate, small office and home users.
 

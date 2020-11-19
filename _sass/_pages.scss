@@ -1,0 +1,31 @@
+.about-pic {
+  float: left;
+  width: 33.33%;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.what-i-do {
+
+  table {
+    border-spacing: 1rem;
+    border-collapse: separate;
+    margin-top: -1rem;
+    margin-left: -1rem;
+
+    td {
+      background: $light;
+      padding: 1rem;
+      border-radius: 1rem;
+      vertical-align: top;
+
+      strong {
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+}

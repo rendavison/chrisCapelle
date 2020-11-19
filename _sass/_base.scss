@@ -23,7 +23,7 @@ body {
   font-size: $base-font-size;
   color: #2c2c2d;
   margin: auto;
-  line-height: 1.25rem;
+  line-height: 1.3;
   overflow-x: hidden;
 }
 
@@ -86,4 +86,8 @@ h3 {
   line-height: 1.625rem;
   font-weight: normal;
   color: $grey;
+}
+
+li, ol {
+  list-style-position: inside;
 }
