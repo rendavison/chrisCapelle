@@ -1,8 +1,21 @@
-.about-pic {
-  float: left;
-  width: 33.33%;
-  margin-right: 1rem;
-  margin-bottom: 0.5rem;
+.about {
+  margin-top: 1rem;
+
+  .about-pic {
+    width: 33%;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    float: left;
+  }
+
+  .about-text {
+    width: 65%;
+    float: right;
+
+    p:first-of-type {
+      margin-top: 0;
+    }
+  }
 }
 
 .what-i-do {

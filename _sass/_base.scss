@@ -28,7 +28,7 @@ body {
 }
 
 a {
-  color: $accent;
+  color: $grey;
   font-weight: bold;
   text-decoration: none;
   transition: .3s ease-in-out;
@@ -86,8 +86,4 @@ h3 {
   line-height: 1.625rem;
   font-weight: normal;
   color: $grey;
-}
-
-li, ol {
-  list-style-position: inside;
 }

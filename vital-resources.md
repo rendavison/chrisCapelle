@@ -5,9 +5,7 @@ layout: template
 
 # Vital Resources
 
-Adobe Reader
-
-https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html
+[Adobe Reader](https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html)
 
 Zoom
 
