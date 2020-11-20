@@ -20,21 +20,20 @@
 
   main {
     padding: 1rem;
-  }
 
-  main .sidebar,
-  main .content {
-    font-size: 3rem;
-    line-height: 3.5rem;
-    width: 100%;
-    padding: 0 1rem;
-    box-sizing: border-box;
-  }
+    .sidebar,
+    .content {
+      font-size: 3rem;
+      line-height: 3.5rem;
+      width: 100%;
+      padding: 0 1rem;
+      box-sizing: border-box;
+    }
 
-  main .content {
-    padding-bottom: 3rem;
+    .content {
+      padding-bottom: 3rem;
+    }
   }
-}
 
 /*PHONE STYLES*/
 @media only screen and (max-width: 640px) {
@@ -50,99 +49,107 @@
 
   nav {
     margin: 1.5rem auto;
+
+    #mobile-nav {
+      display: inline-block;
+      position: absolute;
+      right: 0;
+      color: $accent;
+      font-size: 2.5rem;
+      padding: 1.5rem 2rem 0 0;
+      cursor: pointer;
+    }
+
+    #nav-links {
+      background-color: $accent;
+      width: auto;
+      height: auto;
+      position: absolute;
+      right: 1rem;
+      top: 6rem;
+      padding: .5rem;
+      display: none;
+    }
+
+    a {
+      margin: 0 1rem;
+      font-size: 1.25rem;
+      line-height: 1.66;
+      color: #fff;
+      display: block;
+    }
+
+    &:active {
+      color: #000;
+    }
+
+    &.show {
+      display: block;
+    }
   }
 
-  nav #mobile-nav {
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    color: $accent;
-    font-size: 2.5rem;
-    padding: 1.5rem 2rem 0 0;
-    cursor: pointer;
-  }
+  main {
 
-  nav #nav-links {
-    background-color: $accent;
-    width: auto;
-    height: auto;
-    position: absolute;
-    right: 1rem;
-    top: 6rem;
-    padding: .5rem;
-    display: none;
-  }
+    .sidebar,
+    .content {
+      width: 100%;
+      margin: 0;
+    }
 
-  nav #nav-links.show {
-    display: block;
-  }
+    .content {
+      h1 {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+      }
 
-  nav #nav-links a {
-    margin: 0 1rem;
-    font-size: 1.25rem;
-    line-height: 1.66;
-    color: #fff;
-    display: block;
-  }
+      //contact form
+      .contact {
+        line-height: 2rem;
 
-  nav #nav-links a:active {
-    color: #000;
-  }
+        label {
+          padding: 0;
+        }
 
-  main .sidebar,
-  main .content {
-    width: 100%;
-    margin: 0;
-  }
+        input,
+        textarea {
+          margin: 0;
+          margin-top: 0;
+          padding: 0.5rem;
+          border-radius: 5px;
+          border: 1px solid #ccc;
+          outline: none;
+        }
 
-  main .content h1 {
-    font-size: 1.75rem;
-    line-height: 2.25rem;
-  }
+        input[type=text] {
+          width: 50%;
+        }
 
-  main .content .contact {
-    line-height: 2rem;
-  }
+        input[type=submit] {
+          width: 33%;
+        }
 
-  main .content .contact label {
-    padding: 0;
-  }
-
-  main .content .contact input,
-  main .content .contact textarea {
-    margin: 0;
-    margin-top: 0;
-    padding: 0.5rem;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    outline: none;
-  }
-
-  main .content .contact input[type=text] {
-    width: 50%;
-  }
-
-  main .content .contact textarea {
-    width: 90%;
-    height: 10rem;
-    font-family: $body-font;
-  }
-
-  main .content .contact input[type=submit] {
-    width: 33%;
+        textarea {
+          width: 90%;
+          height: 10rem;
+          font-family: $body-font;
+        }
+      }
+    }
   }
 
   footer {
     position: inherit;
-  }
 
-  footer .footer-info .socials {
-    width: 100%;
-    padding: 0;
-  }
+    .footer-info {
+      .socials {
+        width: 100%;
+        padding: 0;
+      }
 
-  footer .footer-info .contact {
-    width: 100%;
-    padding: 1.5rem 0;
+      .contact {
+        width: 100%;
+        padding: 1.5rem 0;
+      }
+    }
   }
 }
