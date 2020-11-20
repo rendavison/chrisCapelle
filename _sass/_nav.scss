@@ -3,10 +3,11 @@
 /* TOP NAVIGATION */
 
 nav {
-  max-width: 1200px;
-  height: 10vh;
-  margin: 2rem auto;
+  width: 100%;
+  height: 7vh;
+  margin: 0 auto 2rem auto;
   box-sizing: border-box;
+  background-color: $light;
 
   #mobile-nav {
     display: none;
@@ -17,18 +18,18 @@ nav {
     float: left;
     height: 3rem;
     box-sizing: border-box;
-    padding-top: 1.5rem;
+    padding-top: .75rem;
     line-height: 2rem;
 
     a, span {
       font-family: $body-font;
-      font-weight: 700;
+      font-weight: 400;
       margin-right: 1.1rem;
-      font-size: 1.5rem;
+      font-size: 1.25rem;
+      color: $body-color;
     }
 
     span {
-      color: $grey;
       cursor: pointer;
 
       &:hover {

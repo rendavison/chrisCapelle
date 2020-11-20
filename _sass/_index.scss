@@ -1,15 +1,15 @@
 main {
+  margin-top: 1rem;
   .content {
     .index {
       height: auto;
       display: flex;
-      margin-top: 1rem;
       justify-content: space-between;
 
       section {
         flex-grow: 1;
         flex-basis: 0;
-        margin: 1rem;
+        margin: 0.5rem;
         width: 33.33%;
 
         &:first-of-type {

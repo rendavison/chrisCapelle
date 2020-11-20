@@ -1,6 +1,7 @@
 ---
 title: About |
 layout: about
+heading: About Me
 ---
 I’ve been working with Apple products for thirty years with clients of all types. My specialty is successfully solving technical problems for corporate, small office and home users.
 

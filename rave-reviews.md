@@ -1,10 +1,8 @@
 ---
 title: Rave Reviews |
 layout: table
+heading: Rave Reviews
 ---
-
-# Rave reviews
-
 |   |    |
 |--------|--------------------|
 | Thank you sooooo much, it makes all the difference to have it working. – Jef K., Norwalk, CT | Just thinking how fortunate I am to have you to keep my computer system all running so smoothly… THANK YOU! : - ) – Mary F., Norwalk, CT |

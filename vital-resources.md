@@ -1,9 +1,8 @@
 ---
 title: Vital Resources |
 layout: template
+heading: Vital Resources
 ---
-
-# Vital Resources
 
 **Software**
 * [Adobe Reader](https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html)
