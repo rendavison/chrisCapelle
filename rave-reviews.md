@@ -13,7 +13,9 @@ heading: Rave Reviews
 | Chris Capelle is a great guy and has a great personality! - Michael B., San Francisco, CA | "Chris Capelle's class was enlightening and he made the experience very easy to follow.  He was open to all questions and his explanations were simple to understand while giving all students hands on experiences.  The environment was comfortable." - 2017 WCE student |
 | Chris is a genius when it comes to Macs. He can make any complicated problem seem like it has a simple solution. I highly recommend Chris for any of your Mac needs - Chris M., Ridgefield, CT |
 
-# In the News
+
+
+## In the News
 
 <a href="https://news.hamlethub.com/wilton/places/49650-why-small-businesses-matter-in-wilton-chris-capelle-macintosh-computer-expert">Why Small Businesses Matter in Wilton: Chris Capelle, Macintosh Computer Expert</a> - *Wilton's HamletHub*
 

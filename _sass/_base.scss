@@ -60,6 +60,11 @@ main {
 
 /* HEADERS */
 
+.headers {
+  margin: 3rem auto;
+  max-width: 1200px;
+}
+
 h1, h2, h3 {
   font-family: $heading-font;
   margin: 0;
@@ -76,13 +81,12 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5rem;
-  line-height: 2.275rem;
+  font-size: 1.75rem;
+  margin-top: 0.75rem;
 }
 
 h3 {
   font-size: 1.25rem;
-  line-height: 1.625rem;
   font-weight: normal;
   color: $grey;
 }
