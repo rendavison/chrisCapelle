@@ -28,7 +28,7 @@ body {
 }
 
 a {
-  color: $grey;
+  color: $accent;
   font-weight: bold;
   text-decoration: none;
   transition: .3s ease-in-out;
@@ -61,7 +61,7 @@ main {
 /* HEADERS */
 
 .headers {
-  margin: 3rem auto;
+  margin: 2.5rem auto;
   max-width: 1200px;
 }
 

@@ -1,3 +1,5 @@
+//About
+
 .about {
   margin-top: 1rem;
 
@@ -18,8 +20,8 @@
   }
 }
 
+//What I Do
 .table {
-
   table {
     border-spacing: 1rem;
     border-collapse: separate;
@@ -40,5 +42,32 @@
       }
     }
   }
+}
 
+//Reviews
+.reviews {
+
+  table {
+    border-spacing: 1rem;
+    border-collapse: separate;
+    margin-top: -4rem;
+    margin-left: -1rem;
+
+    th {
+      width: 50%;
+    }
+
+    td {
+      vertical-align: top;
+      padding: 1rem;
+      box-sizing: border-box;
+
+      em {
+        color: $grey;
+        display: block;
+        text-align: right;
+        font-style: normal;
+      }
+    }
+  }
 }

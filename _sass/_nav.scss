@@ -47,8 +47,7 @@ nav {
       .drop-content {
         display:none;
         position: absolute;
-        background-color: white;
-        border: 1px solid $grey;
+        background-color: $light;
         padding: 1rem;
         min-width: 150px;
         height: auto;
@@ -59,7 +58,7 @@ nav {
         a {
           font-size: 1rem;
           display: inline-block;
-          color: $grey;
+          color: $body-color;
         }
       }
 
