@@ -4,6 +4,8 @@
     {% include head.html %}
   </head>
   <body class="preload">
+    <!--Hidden skip to main content link for ADA compliance-->
+    <a href="#main-content" class="skip-main">Skip to main content</a>
     {% include nav.html %}
 
     <section class="headers">
@@ -14,6 +16,9 @@
     <main class="clear">
 
       {% include sidebar.html %}
+
+      <!--Skip to main content jumps to here-->
+      <a name="main-content" tabindex="-1"></a>
 
       <section class="content">
         {{ content }}
