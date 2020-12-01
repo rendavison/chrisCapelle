@@ -24,10 +24,8 @@ nav {
       font-size: 1.25rem;
       color: $body-color;
 
-      .selected {
-        a {
-          font-weight: 700;
-        }
+      &.selected {
+        color: $accent;
       }
     }
 
