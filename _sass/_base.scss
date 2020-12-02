@@ -16,6 +16,10 @@
   clear: both;
 }
 
+.mobile-only {
+  display: none;
+}
+
 body {
   background-color: #fff;
   font-family: $body-font;

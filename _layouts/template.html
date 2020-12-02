@@ -8,7 +8,7 @@
     <a href="#main-content" class="skip-main">Skip to main content</a>
     {% include nav.html %}
 
-    <section class="headers">
+    <section class="headers desktop-only">
       <h1 align="center">{{ page.heading }}</h1>
       <h2 align="center">{{ page.subheading }}</h2>
     </section>
@@ -16,6 +16,11 @@
     <main class="clear">
 
       {% include sidebar.html %}
+
+      <section class="headers mobile-only">
+        <h1 align="center">{{ page.heading }}</h1>
+        <h2 align="center">{{ page.subheading }}</h2>
+      </section>
 
       <!--Skip to main content jumps to here-->
       <a name="main-content" tabindex="-1"></a>
