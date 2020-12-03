@@ -9,10 +9,10 @@ Mobile and open graph compatible.
 Designed and developed by [Remy Davison](https://remydavison.com)
 
 ## Directories
-**includes** - partials for repeated elements (sidebar, navigation, footer)
-**layouts** - templates
-**sass** - all (S)CSS styling
-**assets** - images, javascript, and calls main stylesheet
+* **includes** - partials for repeated elements (sidebar, navigation, footer)
+* **layouts** - templates
+* **sass** - all (S)CSS styling
+* **assets** - images, javascript, and calls main stylesheet
 
 ## Editing Pages
 All site pages are in the root directory. Site page content is written in markdown (except for index and contact page).
