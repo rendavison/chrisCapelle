@@ -17,9 +17,9 @@ Designed and developed by [Remy Davison](https://remydavison.com)
 ## Editing Pages
 All site pages are in the root directory. Site page content is written in markdown (except for index and contact page).
 
-index.html = home
-about.md = about page
-what-i-do.md = what i do
-rave-reviews.md = rave reviews
-vital-resources.md = vital resources
-contact-me.html = contact me
+* index.html = home
+* about.md = about page
+* what-i-do.md = what i do
+* rave-reviews.md = rave reviews
+* vital-resources.md = vital resources
+* contact-me.html = contact me
