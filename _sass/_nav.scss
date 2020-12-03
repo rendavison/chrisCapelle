@@ -13,12 +13,17 @@ nav {
     padding: .75rem 0;
     line-height: 2rem;
 
+    .closebtn {
+      display: none;
+    }
+
     a, span {
       font-family: $body-font;
       font-weight: 400;
       margin-right: 1.1rem;
       font-size: 1.25rem;
       color: $body-color;
+      display: inline;
 
       &.selected {
         color: $accent;
@@ -58,6 +63,7 @@ nav {
         }
       }
 
+      //display children on hover
       &:hover {
         .drop-content {
           display:block;
