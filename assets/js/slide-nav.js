@@ -1,11 +1,11 @@
-//Tutorial by W3Schools
+//Modified tutorial from W3Schools
 //https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav
 function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("mySidenav").classList.add('show');
 }
 
 function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("mySidenav").classList.remove('show');
 }
 
 //make the dropdown hover a click on mobile

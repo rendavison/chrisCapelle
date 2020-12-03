@@ -71,6 +71,10 @@
       transition: 0.5s;
       text-align: left;
 
+      &.show {
+        width: 300px;
+      }
+
       .closebtn {
         display: block;
         position: absolute;

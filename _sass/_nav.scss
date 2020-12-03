@@ -55,6 +55,17 @@ nav {
         z-index: 1;
         text-align: left;
         line-height: 1.4;
+        transform-origin: top;
+        animation: growDown 150ms ease-in-out;
+
+        @keyframes growDown {
+          from {
+            transform: scaleY(0)
+          }
+          to {
+            transform: scaleY(1)
+          }
+        }
 
         a {
           font-size: 1rem;
