@@ -141,15 +141,24 @@
       }
     }
 
-    #nav-links {
+    .nav-links {
       background-color: $accent;
-      width: auto;
-      height: auto;
-      position: absolute;
-      right: 2rem;
-      top: 5rem;
+      width: 0;
+      height: 100%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      overflow-x: hidden;
       padding: .75rem;
-      display: none;
+      transition: 0.5s;
+
+      .closebtn {
+        position: absolute;
+        top: 0;
+        left: 1rem;
+        font-size: 2rem;
+      }
 
       a {
         margin: 0 1rem;
