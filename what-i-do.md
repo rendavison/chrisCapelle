@@ -2,6 +2,7 @@
 title: What I Do |
 layout: table
 heading: Sublime service from your Macintosh Computer & Apple Products Expert
+permalink: /what-i-do/
 ---
 
 |   |    |

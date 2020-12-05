@@ -2,7 +2,7 @@
 
 Professional website for Chris Capelle's Macintosh Computer & Apple Expert Consulting Business. Static site built with Jekyll, SCSS, HTML, and some minor JS.
 
-Site is based on a single template (template.html) which branches into page-specific templates when need be (located in the layouts directory). The front matter for each page contains options for a page title (for the browser tab), page header, and page sub-header.
+Site is based on a single template (template.html) which branches into page-specific templates when need be (located in the layouts directory).
 
 Mobile and open graph compatible.
 
@@ -23,3 +23,10 @@ All site pages are in the root directory. Site page content is written in markdo
 * rave-reviews.md = rave reviews
 * vital-resources.md = vital resources
 * contact-me.html = contact me
+
+### Front Matter Options
+Each page has options to include:
+* **title** - page title in browser tab
+* **heading** - heading at the top of the page
+* **subheading** - optional subheading underneath heading
+* **permalink** - name for page permalink; removes .html from url
