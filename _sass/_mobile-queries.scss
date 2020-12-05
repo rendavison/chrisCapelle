@@ -169,6 +169,34 @@
       }
     }
   }
+
+  //footer
+  footer {
+    position: inherit;
+
+    .footer-info {
+      display: block;
+      
+      .socials {
+        width: 100%;
+        padding: 0;
+        padding-top: 0.5rem;
+        margin-left: 1.66%;
+      }
+
+      .contact {
+        width: 100%;
+        padding-top: 1.5rem;
+        display: block;
+
+        section {
+          width: 100%;
+          margin: 0;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
 }
 
 /*PHONE STYLES*/
@@ -301,22 +329,6 @@
           height: 10rem;
           font-family: $body-font;
         }
-      }
-    }
-  }
-
-  footer {
-    position: inherit;
-
-    .footer-info {
-      .socials {
-        width: 100%;
-        padding: 0;
-      }
-
-      .contact {
-        width: 100%;
-        padding: 1.5rem 0;
       }
     }
   }
