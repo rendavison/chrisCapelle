@@ -133,6 +133,7 @@
   //individual page styles
   main {
     display: block;
+    min-height: 100vh;
 
     .sidebar,
     .content {
@@ -176,7 +177,7 @@
 
     .footer-info {
       display: block;
-      
+
       .socials {
         width: 100%;
         padding: 0;
