@@ -2,7 +2,6 @@
 title: Rave Reviews |
 layout: reviews
 heading: Rave Reviews
-permalink: /rave-reviews/
 ---
 
 |   |    |
