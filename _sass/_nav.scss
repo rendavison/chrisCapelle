@@ -25,10 +25,10 @@ nav {
       font-size: 1.25rem;
       color: $body-color;
       display: inline;
+    }
 
-      &.selected {
-        color: $accent;
-      }
+    a.selected {
+      color: $accent;
     }
 
     span {
