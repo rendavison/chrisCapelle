@@ -10,8 +10,9 @@ nav {
     float: left;
     height: auto;
     box-sizing: border-box;
-    padding: .75rem 0;
+    padding: 3vh 0;
     line-height: 2rem;
+    background: $light;
 
     .closebtn {
       display: none;

@@ -23,8 +23,11 @@
 <!-- IMPORT JS AND LIBRARIES -->
 <script src="https://kit.fontawesome.com/c1a5a513f9.js" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/../assets/js/slide-nav.js"></script>
+<script src="/../assets/js/selected.js"></script>
 
 <!-- STOPS TRANSITIONS FROM FIRING ON PAGE LOAD -->
+{% include js.html %}
 <script>
   $(document).ready(function() {
     $("body").removeClass("preload");
