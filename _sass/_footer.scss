@@ -4,10 +4,7 @@ footer {
   padding: 1rem;
   margin: 0rem auto;
   width: 100%;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  flex-shrink: 0;
 
   .footer-info {
     margin: auto;
