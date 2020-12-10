@@ -2,7 +2,7 @@
 layout: template
 title: Contact Me |
 heading: Contact Me
-subheading: <a href="assets/Chris_Capelle.vcf">Download my vCard</a>
+subheading: <a href="/assets/Chris_Capelle.vcf">Download my vCard</a>
 permalink: /contact-me
 ---
 <form class="contact" id="contactForm" action="https://formsubmit.co/chris@chriscapelle.com" method="POST">

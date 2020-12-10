@@ -5,7 +5,6 @@
     <!--imports all the javascript-->
   </head>
   <body class="preload">
-    <!--Hidden skip to main content link for ADA compliance-->
     <a href="#main-content" class="skip-main">Skip to main content</a>
     {% include nav.html %}
 
@@ -30,7 +29,8 @@
         {{ content }}
       </section>
     </main>
-    {% include footer.html %}
+    <!--Hidden skip to main content link for ADA compliance-->
     {% include js.html %}
   </body>
+  {% include footer.html %}
 </html>

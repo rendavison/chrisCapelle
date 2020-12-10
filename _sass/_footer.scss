@@ -1,12 +1,13 @@
 footer {
   background-color: $accent;
   box-sizing: border-box;
-  padding: 1.5rem;
+  padding: 1rem;
   margin: 0rem auto;
   width: 100%;
-  height: auto;
-  flex: 2;
-  flex-shrink: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
 
   .footer-info {
     margin: auto;
@@ -32,6 +33,22 @@ footer {
       color: white;
       display: inline-block;
       margin-left: 1.66%;
+      display: flex;
+
+      section {
+        flex-grow: 1;
+        flex-basis: 0;
+        margin: 0.5rem;
+        width: 33.33%;
+
+        &:first-of-type {
+          margin-left: 0;
+        }
+
+        &:last-of-type {
+          margin-right: 0;
+        }
+      }
 
       a {
         color: white;
