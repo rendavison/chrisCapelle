@@ -2,7 +2,6 @@
 title: Vital Resources |
 layout: template
 heading: Vital Resources
-permalink: /vital-resources
 ---
 ## [Adobe Reader](https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html)
 ## [Zoom](https://zoom.us/download)

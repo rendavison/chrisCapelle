@@ -3,7 +3,6 @@ layout: template
 title: Contact Me |
 heading: Contact Me
 subheading: <a href="/assets/Chris_Capelle.vcf">Download my vCard</a>
-permalink: /contact-me
 ---
 <form class="contact" id="contactForm">
   <h1 style="margin-bottom: 1rem;">Contact Me</h1>

@@ -29,4 +29,3 @@ Each page has options to include:
 * **title** - page title in browser tab
 * **heading** - heading at the top of the page
 * **subheading** - optional subheading underneath heading
-* **permalink** - name for page permalink; removes .html from url
