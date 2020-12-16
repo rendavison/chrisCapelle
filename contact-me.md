@@ -18,5 +18,5 @@ subheading: <a href="/assets/Chris_Capelle.vcf">Download my vCard</a>
   <label for="message">Message</label><br />
   <textarea name="message" required></textarea><br />
 
-  <input type="submit" value="Submit" method="post" action="/assets/php/sendemail.php"></input>
+  <input type="submit" value="Submit" method="post" action="/assets/php/sendemail.php">
 </form>
