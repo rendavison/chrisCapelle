@@ -12,6 +12,18 @@ main {
         margin: 0.5rem;
         width: 33.33%;
 
+        a {
+          color: $body-color;
+
+          p {
+            font-weight: 400;
+          }
+
+          &:hover {
+            opacity: 1;
+          }
+        }
+
         &:first-of-type {
           margin-left: 0;
         }
